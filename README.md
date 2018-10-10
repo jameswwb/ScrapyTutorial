@@ -11,3 +11,20 @@ for study scrapy
         scrapy startproject tutorial
     - run spider
         - scrapy crawl quotes
+
+## Debug setting for Scrapy
+    - Add configuration on launch.json
+
+        ```
+        {
+            "name": "Scrapy",
+            "type": "python",
+            "request": "launch",
+            "cwd":"${workspaceFolder}/tutorial",
+            "module": "scrapy",
+            "args": [
+                "crawl",
+                "quotes"
+            ]
+        },
+        ```
