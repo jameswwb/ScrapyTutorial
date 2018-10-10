@@ -15,7 +15,7 @@ for study scrapy
 ## Debug setting for Scrapy
     - Add configuration on launch.json
 
-        ```
+```
         {
             "name": "Scrapy",
             "type": "python",
@@ -27,4 +27,4 @@ for study scrapy
                 "quotes"
             ]
         },
-        ```
+```
